@@ -11,7 +11,7 @@ kv_namespaces = [
 
 # Route configuration
 routes = [
-  "https://smiski-travel.us/*"
+  { pattern = "*.smiski-travel.us/*", zone_id = "aefc459a2f48119ccd84f85f0173aee6" }
 ]
 
 # Observability (logs)
